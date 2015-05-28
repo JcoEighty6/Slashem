@@ -14,8 +14,9 @@ class Enemie
 		int		enemie_exp;
 		
 	public:
-		//Constructor
-		baddie (string name, int health, int loot, int exp);
+		//Constructors
+		Enemie ();
+		Enemie (string name, int health, int loot, int exp);
 		//Getters
 		string 	GetName();
 		int 	GetHealth();
